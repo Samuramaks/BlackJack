@@ -47,7 +47,7 @@ public class GameController {
     // Button for adding cards
     @FXML
     void btnOnClickAdd(ActionEvent event) {
-        if (cr.count_player > 21) {
+        if (cr.count_player >= 21) {
             CheckWin();
         } else {
             if (cr.count_croipier < 17) {
@@ -64,7 +64,7 @@ public class GameController {
     // Button for skipping a move
     @FXML
     void btnOnClickStop(ActionEvent event) {
-        if (cr.count_player > 21) {
+        if (cr.count_player >= 21) {
             CheckWin();
         } else {
             if (cr.count_croipier < 17) {
@@ -112,7 +112,7 @@ public class GameController {
             DisableBtn();
             EnableBtnAgain();
             OutputTie();
-        } else if (cr.count_player < 21) {
+        } else if (cr.count_player <= 21) {
             if (cr.count_player > cr.count_croipier || cr.count_player == 21) {
                 DisableBtn();
                 EnableBtnAgain();
