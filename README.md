@@ -33,7 +33,7 @@ When running blackjack.exe you may get this error
 
 ![image](https://user-images.githubusercontent.com/90257039/212078893-ed1a080c-b5ca-4917-85c4-d2ae61ff8bf9.png)
 <br>
-It is not difficult to solve this problem. Go to Control Panel -> uninstall the program. Find Java, uninstall and put the latest version for your OS. If you don't have Java, you have to install it. Link to download Java https://www.oracle.com/java/technologies/downloads/#jdk19.
+It is not difficult to solve this problem. You have to download Java and install it on your PC. Download link https://www.java.com/ru/download/
 
 
 
