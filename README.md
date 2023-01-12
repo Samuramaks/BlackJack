@@ -6,6 +6,7 @@ This is my first project written in Java with JavaFx. The point of BlackJack is 
 
 <h1>What does the project look like?</h1>
 The user is greeted by a welcome screen.
+
 ![image](https://user-images.githubusercontent.com/90257039/212074178-ff97898d-6c96-44ba-901c-80c950977662.png)
 <br>
 As you can see, it welcomes us and invites us to play. After pressing the Start button, we are taken to the screen with the game
@@ -29,6 +30,7 @@ First, you need to download the repository and in the root folder will lie black
 In the root folder of the project will be lying blackjack.exe and you need to click twice on the file.
 <h1>Possible errors</h1>
 When running blackjack.exe you may get this error
+
 ![image](https://user-images.githubusercontent.com/90257039/212078893-ed1a080c-b5ca-4917-85c4-d2ae61ff8bf9.png)
 <br>
 It is not difficult to solve this problem. Go to Control Panel -> uninstall the program. Find Java, uninstall and put the latest version for your OS. If you don't have Java, you have to install it. Link to download Java https://www.oracle.com/java/technologies/downloads/#jdk19.
