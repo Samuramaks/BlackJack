@@ -8,7 +8,7 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="374.0" prefWidth="582.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.GameController">
    <children>
-      <Label layoutX="251.0" layoutY="14.0" prefHeight="18.0" prefWidth="52.0" text="Ready?">
+      <Label layoutX="165.0" layoutY="14.0" prefHeight="18.0" prefWidth="224.0" text="Welcome to the game of Blackjack&#10;Click the button to start&#10;">
          <font>
             <Font name="Times New Roman Bold" size="15.0" />
          </font></Label>

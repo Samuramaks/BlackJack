@@ -9,7 +9,7 @@ import com.example.Cards.Suit;
 public class Deck {
     private Random rand = new Random();
     private ArrayList<Cards> numbersInOrder;
-    public Cards[] card = new Cards[36];
+    public Cards[] card = new Cards[52];
 
     public Deck() {
         Refresh();
