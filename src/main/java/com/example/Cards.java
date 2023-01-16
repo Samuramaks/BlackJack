@@ -3,9 +3,10 @@ package com.example;
 public class Cards {
 
     enum Rank {
-        TWO(2), THREE(3), FOUR(4),
+        TWO(2), THREE(3), FOUR(4), FIVE(5),
         SIX(6), SEVEN(7), EIGHT(8), NINE(9),
-        TEN(10), ELEVEN(11);
+        TEN(10), Jack(10), QUEEN(10), KING(10),
+        ACE(11);
 
         private int value;
 
