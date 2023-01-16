@@ -10,6 +10,7 @@ import javafx.scene.control.ListView;
 public class GameController {
 
     Croupier cr = new Croupier();
+    Deck deck = new Deck();
 
     private String literal_croupier = "The croupier's move";
     private String literal_croupier_win = "Winning Croupier";
@@ -38,6 +39,7 @@ public class GameController {
     @FXML
     void btnOnClickedStart(ActionEvent event) {
         EnableBtn();
+        cr.Full();
         cr.Battle();
         Output();
         btnStart.setDisable(true);
@@ -129,10 +131,10 @@ public class GameController {
     void Output() {
         str = FXCollections.observableArrayList(literal_croupier,
                 String.format("Croupier Cards: %s\nCroupier Points: %d",
-                        cr.card[cr.indexCardCroupier].name, cr.count_croipier),
+                        deck.card[cr.indexCardCroupier].toString(), cr.count_croipier),
                 literal_player,
                 String.format("Your Cards: %s\nOur points: %d",
-                        cr.card[cr.indexCardPlayer].name, cr.count_player));
+                        deck.card[cr.indexCardPlayer].toString(), cr.count_player));
         listView.setItems(str);
     }
 
